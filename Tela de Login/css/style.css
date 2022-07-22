@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body{
+    background-image: url("./tela_de_fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    width: 50px;
+    position: absolute;
+}
+
+.sidepanel {
+    height: 100%; 
+    width: 0;
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: white; 
+    overflow-x: hidden; 
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #d5bc60;
+    display: block;
+    transition: 0.3s;
+}
+
+
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+
+.openbtn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+}
+
+.texto_login{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo:hover {
+    transition: 500ms;
+    opacity: 0;
+}
+
+.logo_colorido{
+    transition: 500ms;
+    width: 50px;
+    position:absolute;
+}
+
+.logo_interna{
+    width: 50px;
+    padding: 60px;
+}
+
+.entrada{
+    width: 250px;
+    padding: 10px;
+    background-color: rgb(230, 230, 238);
+    border: none;
+}
+
+.sidepanel h1{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.sidepanel input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.sidepanel label{
+    margin-top: 10px;
+}
+
+.alinhamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid rgb(230, 230, 238);
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    align-items: center;
+    color: rgb(230, 230, 238);
+    margin-bottom: 100px;
+    margin-left: 165px;
+    transition: 500ms;
+}
+
+
+
+.sidepanel h1, label input{
+    margin-left: 60px;
+}
+
+.sidepanel p{
+    font-size: 25px;
+}
+
+.sidepanel h2, h3, h4{
+    color: rgb(169, 169, 175);
+
+}
+
+.sidepanel h2{
+    margin-left: 60px;
+    font-size: 14px;
+}
+
+.texto_final{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 14px;
+    padding: 0px 23px 0px 40px;
+}
+
+.botao:hover{
+    transition: 500ms;
+    border-color: black;
+    color: black;
+}
+
+.sidepanel p:hover{
+    transition: 500ms;
+    color: black;
+    cursor: pointer;
+}
